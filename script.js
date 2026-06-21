@@ -1,5 +1,7 @@
 let bouton_fr = document.querySelector("#fr");
 let bouton_en = document.querySelector("#en");
+let left_section = document.querySelector("#left-section");
+let right_section = document.querySelector("#right-section");
 
 
 //load stuff
@@ -40,4 +42,18 @@ function grayLangButtons(lang){
     });
     //sauf le boutn sur lequelle on à cliquer (en blanc)
     document.querySelector("#"+lang).style.backgroundColor = "white";
+}
+
+function creatAllCategoriesAndArticles(){
+    // create a new div element
+    const newDiv = document.createElement("div");
+
+    // and give it some content
+    const newContent = document.createTextNode("Hi there and greetings!");
+
+    // add the text node to the newly created div
+    newDiv.appendChild(newContent);
+
+    // add the newly created element and its content into the DOM
+    document.body.insertBefore(newDiv, left_section);
 }
