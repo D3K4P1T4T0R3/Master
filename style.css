@@ -71,3 +71,8 @@ article img{
     height: 100%;
     object-fit: cover;
 }
+
+/* Cache tout ce qui n'est pas une image dans un article */
+article p{
+    display: none;
+}

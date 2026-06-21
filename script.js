@@ -23,7 +23,7 @@ bouton_en.addEventListener("click", function (e) {
 });
 
 //PS : j'ai eu besoin d'IA pour cette partie-là, pour le "e.target.matches"
-//car ".category" n'était pas trouvé, dont l'event listener ne fonctionnait pas
+//car ".category" n'était pas trouvé, donc l'event listener ne fonctionnait pas
 document.addEventListener("click", (e) => {
     if (e.target.matches(".category h2")) {
         let category = e.target.parentElement;
@@ -81,23 +81,39 @@ function creatAllCategoriesAndArticles(){
 
                 category.articles.forEach(article => {
                     //creer le container de l'article (seul)
-                    let article_container = document.createElement("article");
+                    let article_container = document.createElement("article"); // !!!
+
+                    //creer l'image de l'article
+                    let img = document.createElement("img");
+                    img.src = article.url;
+                    img.alt = article.content;
+                    //creer la description de l'article
+                    let description = document.createElement("p");
+                    description.append(article.content);
 
                     //verifier le type d'article et créer l'élément correspondant
                     if(article.type == "img"){
                         article_container.classList.add('img_article');
-                        let img = document.createElement("img");
-                        img.src = article.url;
-                        img.alt = article.content;
-                        article_container.append(img);
                     }
                     if(article.type == "vid"){
                         article_container.classList.add('vid_article');
-                        let img = document.createElement("img");
-                        img.src = article.url;
-                        img.alt = article.content;
-                        article_container.append(img);
+                        
+                        let iframe = document.createElement("iframe");
+                        iframe.width = "560";
+                        iframe.height = "315";
+                        iframe.src = article.vid_url;
+                        iframe.title = "YouTube video player";
+                        iframe.frameBorder = "0";
+                        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+                        iframe.referrerPolicy = "strict-origin-when-cross-origin";
+                        iframe.allowFullscreen = true;
+                        
+                        article_container.append(iframe);
                     }
+
+                    //ajouter l'image et la description à l'article
+                    article_container.append(img);
+                    article_container.append(description);
 
                     //ajouter l'article à la category
                     articles_container.append(article_container);
