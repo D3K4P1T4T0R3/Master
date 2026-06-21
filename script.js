@@ -7,6 +7,7 @@ let right_section = document.querySelector("#right-section");
 //load stuff
 loadLang("fr");
 grayLangButtons("fr");
+creatAllCategoriesAndArticles();
 
 
 //buttons event
@@ -45,15 +46,51 @@ function grayLangButtons(lang){
 }
 
 function creatAllCategoriesAndArticles(){
-    // create a new div element
-    const newDiv = document.createElement("div");
+    fetch( "work.json" ).then(function(response){
+        response.json().then(function(data){
+            //recupere les differents categories et leurs articles depuis le fichier work.json
+            data.categories.forEach(category => {
+                // créer un nouvelle element div et lui ajouter la class "category"
+                let new_category = document.createElement("div");
+                new_category.classList.add('category');
 
-    // and give it some content
-    const newContent = document.createTextNode("Hi there and greetings!");
+                //ajouter le titre de la category à la nouvelle category
+                let h2 = document.createElement("h2");
+                h2.append(category.title);
+                new_category.append(h2);
 
-    // add the text node to the newly created div
-    newDiv.appendChild(newContent);
+                //creer le container des l'articles
+                let articles_container = document.createElement("div");
+                articles_container.classList.add('articles');
+                new_category.append(articles_container);
 
-    // add the newly created element and its content into the DOM
-    document.body.insertBefore(newDiv, left_section);
+                category.articles.forEach(article => {
+                    //creer le container de l'article
+                    let article_container = document.createElement("article");
+
+                    //verifier le type d'article et créer l'élément correspondant
+                    if(article.type == "img"){
+                        article_container.classList.add('img_article');
+                        let img = document.createElement("img");
+                        img.src = article.url;
+                        img.alt = article.content;
+                        article_container.append(img);
+                    }
+                    if(article.type == "vid"){
+                        article_container.classList.add('vid_article');
+                        let img = document.createElement("img");
+                        img.src = article.url;
+                        img.alt = article.content;
+                        article_container.append(img);
+                    }
+
+                    //ajouter l'article à la category
+                    articles_container.append(article_container);
+                });
+
+                // ajouter la category et ces articles à la section de gauche
+                left_section.append(new_category);
+            });
+        })
+    });
 }

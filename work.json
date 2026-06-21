@@ -1,0 +1,50 @@
+{
+    "categories": [
+        {
+            "title": "Jeu de rôle Amalgama",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/heros.png",
+                    "content": "Ici vous avez les personnages principaux du jeu de rôle Amalgama."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/paysage.png",
+                    "content": "Vous pouvez voir ici les différents paysages du jeu de rôle Amalgama."
+                }
+            ]
+        },
+        {
+            "title": "Mod pour Rivals of Aether",
+            "articles": [
+                {
+                    "type": "vid",
+                    "url": "assets/mod_roa/scout_mini.jpeg",
+                    "vid_url": "https://www.youtube.com/watch?v=d4frmrzLXgs",
+                    "content": "Cliquez ici pour acceder à la vidéo de présentation du mod pour Rivals of Aether."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/mod_roa/capture_1.jpeg",
+                    "content": "Voici une capture d'écran de mon personnage en action."
+                }
+            ]
+        },
+        {
+            "title": "Projetcs Processing",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/processing/card_game.png",
+                    "content": "Un jeu de carte exagonal ou il faut detruitre les deux tours de l'adversaire avant qu'il ne detruise les votres."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/processing/dungeon_crawler.png",
+                    "content": "Un dungeon crawler ou il faut continuer d'étage en étage sans laisser sa lampe s'éteindre."
+                }
+            ]
+        }
+    ]
+}
