@@ -73,6 +73,6 @@ article img{
 }
 
 /* Cache tout ce qui n'est pas une image dans un article */
-article p{
+article p, article iframe{
     display: none;
 }
