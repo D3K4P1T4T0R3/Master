@@ -1,0 +1,24 @@
+.lang_button{
+    background-color: gray;
+}
+
+main{
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items: stretch;
+}
+
+#left-section, #right-section{
+    flex-grow: 1;
+    border: 2px solid lightgray;
+}
+
+#left-section{
+}
+
+#right-section{
+}
