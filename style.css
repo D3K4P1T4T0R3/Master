@@ -1,3 +1,7 @@
+body, main, #left-section, #right-section{
+    min-height: 92vh;
+}
+
 .lang_button{
     background-color: gray;
 }
@@ -17,7 +21,7 @@ main{
     width: 50%;
 }
 
-#left-section{
+#categories{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,9 +29,22 @@ main{
     gap: 0.5rem;
 }
 
+#categories-left, #categories-right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+@media (max-width: 980px) {
+    #categories-left, #categories-right{ width: 100%; }
+}
+@media (min-width: 980px) {
+    #categories-left, #categories-right{ width: 49%; }
+}
+
 .category{
     padding: 0.5rem;
-    width: 45%;
     border: 2px solid lightgray;
 }
 

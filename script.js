@@ -1,7 +1,7 @@
 let bouton_fr = document.querySelector("#fr");
 let bouton_en = document.querySelector("#en");
-let left_section = document.querySelector("#left-section");
-let right_section = document.querySelector("#right-section");
+let categories_left = document.querySelector("#categories-left");
+let categories_right = document.querySelector("#categories-right");
 
 
 //load stuff
@@ -49,7 +49,7 @@ function creatAllCategoriesAndArticles(){
     fetch( "work.json" ).then(function(response){
         response.json().then(function(data){
             //recupere les differents categories et leurs articles depuis le fichier work.json
-            data.categories.forEach(category => {
+            data.categories.forEach(function(category, index) {
                 // créer un nouvelle element div et lui ajouter la class "category"
                 let new_category = document.createElement("div");
                 new_category.classList.add('category');
@@ -89,7 +89,11 @@ function creatAllCategoriesAndArticles(){
                 });
 
                 // ajouter la category et ces articles à la section de gauche
-                left_section.append(new_category);
+                if (index % 2 === 0) {
+                    document.querySelector("#categories-left").append(new_category);
+                } else {
+                    document.querySelector("#categories-right").append(new_category);
+                }
             });
         })
     });
