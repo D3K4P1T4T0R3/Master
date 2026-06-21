@@ -23,7 +23,7 @@ bouton_en.addEventListener("click", function (e) {
 });
 
 //PS : j'ai eu besoin d'IA pour cette partie-là, pour le "e.target.matches"
-//car ".category" n'était pas trouvé, dont l'event listener ne fonctionnait pas
+//car ".category" n'était pas trouvé, donc l'event listener ne fonctionnait pas
 document.addEventListener("click", (e) => {
     if (e.target.matches(".category h2")) {
         let category = e.target.parentElement;
