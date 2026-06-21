@@ -106,8 +106,7 @@ function creatAllCategoriesAndArticles(){
                         iframe.frameBorder = "0";
                         iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
                         iframe.referrerPolicy = "strict-origin-when-cross-origin";
-                        iframe.allowFullscreen = true;
-                        
+                        iframe.allowFullscreen = true;                                                
                         article_container.append(iframe);
                     }
 
