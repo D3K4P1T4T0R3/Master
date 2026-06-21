@@ -2,6 +2,7 @@ let bouton_fr = document.querySelector("#fr");
 let bouton_en = document.querySelector("#en");
 let categories_left = document.querySelector("#categories-left");
 let categories_right = document.querySelector("#categories-right");
+let categories = document.querySelectorAll(".category");
 
 
 //load stuff
@@ -21,6 +22,19 @@ bouton_en.addEventListener("click", function (e) {
     grayLangButtons("en");
 });
 
+//PS : j'ai eu besoin d'IA pour cette partie-là, pour le "e.target.matches"
+//car ".category" n'était pas trouvé, dont l'event listener ne fonctionnait pas
+document.addEventListener("click", (e) => {
+    if (e.target.matches(".category h2")) {
+        let category = e.target.parentElement;
+        let articles = category.querySelector(".articles");
+        if (articles.style.display === "none") {
+            articles.style.display = "flex";
+        } else {
+            articles.style.display = "none";
+        }
+    }
+});
 
 //functions
 function loadLang(lang){
@@ -50,7 +64,7 @@ function creatAllCategoriesAndArticles(){
         response.json().then(function(data){
             //recupere les differents categories et leurs articles depuis le fichier work.json
             data.categories.forEach(function(category, index) {
-                // créer un nouvelle element div et lui ajouter la class "category"
+                // créer un nouvelle element div & lui ajouter la class "category"
                 let new_category = document.createElement("div");
                 new_category.classList.add('category');
 
@@ -59,13 +73,14 @@ function creatAllCategoriesAndArticles(){
                 h2.append(category.title);
                 new_category.append(h2);
 
-                //creer le container des l'articles
+                //creer le container des l'articles (grouper)
                 let articles_container = document.createElement("div");
                 articles_container.classList.add('articles');
+                articles_container.style.display = "none"; //cacher les articles par défaut
                 new_category.append(articles_container);
 
                 category.articles.forEach(article => {
-                    //creer le container de l'article
+                    //creer le container de l'article (seul)
                     let article_container = document.createElement("article");
 
                     //verifier le type d'article et créer l'élément correspondant
