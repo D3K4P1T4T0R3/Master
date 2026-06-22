@@ -5,7 +5,7 @@ let categories_left = document.querySelector("#categories-left");
 let categories_right = document.querySelector("#categories-right");
 let categories = document.querySelectorAll(".category");
 
-let right_section = document.querySelector("#right-section");
+let displayer = document.querySelector("#displayer");
 
 
 //load stuff
@@ -71,7 +71,7 @@ function creatAllCategoriesAndArticles(){
                 //creer le container des l'articles (grouper)
                 let articles_container = document.createElement("div");
                 articles_container.classList.add('articles');
-                articles_container.style.display = "none"; //cacher les articles par défaut
+                //articles_container.style.display = "none"; //cacher les articles par défaut
                 new_category.append(articles_container);
 
                 category.articles.forEach(article => {
@@ -131,11 +131,16 @@ function hideOrShowArticlesInCategories(e){
     if (e.target.matches(".category h2")) {
         let category = e.target.parentElement;
         let articles = category.querySelector(".articles");
+        
+        articles.classList.toggle("open"); //version utiliser pour etre animer
+
+        /*
         if (articles.style.display === "none") {
             articles.style.display = "flex";
         } else {
             articles.style.display = "none";
         }
+            */
     }
 }
 
@@ -149,9 +154,9 @@ function displayArticlesInRightSection(e){
         let img = article.querySelector("img").cloneNode(true);
         let desciption = article.querySelector("p").cloneNode(true);
 
-        right_section.innerHTML = '';
-        right_section.append(img);
-        right_section.append(desciption);
+        displayer.innerHTML = '';
+        displayer.append(img);
+        displayer.append(desciption);
     }
 
     //quand l'artciel est une video youtube:
@@ -162,8 +167,8 @@ function displayArticlesInRightSection(e){
         let vid = article.querySelector("iframe").cloneNode(true);
         let desciption = article.querySelector("p").cloneNode(true);
 
-        right_section.innerHTML = '';
-        right_section.append(vid);
-        right_section.append(desciption);
+        displayer.innerHTML = '';
+        displayer.append(vid);
+        displayer.append(desciption);
     }
 }
