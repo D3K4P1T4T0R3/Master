@@ -1,8 +1,11 @@
 let bouton_fr = document.querySelector("#fr");
 let bouton_en = document.querySelector("#en");
+
 let categories_left = document.querySelector("#categories-left");
 let categories_right = document.querySelector("#categories-right");
 let categories = document.querySelectorAll(".category");
+
+let right_section = document.querySelector("#right-section");
 
 
 //load stuff
@@ -22,18 +25,10 @@ bouton_en.addEventListener("click", function (e) {
     grayLangButtons("en");
 });
 
-//PS : j'ai eu besoin d'IA pour cette partie-là, pour le "e.target.matches"
-//car ".category" n'était pas trouvé, donc l'event listener ne fonctionnait pas
+//click event pour tout le document (pour les elements ajouter en JS)
 document.addEventListener("click", (e) => {
-    if (e.target.matches(".category h2")) {
-        let category = e.target.parentElement;
-        let articles = category.querySelector(".articles");
-        if (articles.style.display === "none") {
-            articles.style.display = "flex";
-        } else {
-            articles.style.display = "none";
-        }
-    }
+    hideOrShowArticlesInCategories(e);
+    displayArticlesInRightSection(e);
 });
 
 //functions
@@ -127,4 +122,48 @@ function creatAllCategoriesAndArticles(){
             });
         })
     });
+}
+
+//cache et montre les articles d'une catégorie quand on clique sur le titre de la catégorie
+function hideOrShowArticlesInCategories(e){
+    //PS : j'ai eu besoin d'IA pour cette partie-là, pour le "e.target.matches"
+    //car ".category" n'était pas trouvé, donc l'event listener ne fonctionnait pas
+    if (e.target.matches(".category h2")) {
+        let category = e.target.parentElement;
+        let articles = category.querySelector(".articles");
+        if (articles.style.display === "none") {
+            articles.style.display = "flex";
+        } else {
+            articles.style.display = "none";
+        }
+    }
+}
+
+//affiche l'article sur laquelle on a cliqué dans la section de droite
+function displayArticlesInRightSection(e){
+    //quand l'artciel est une image :
+    if (e.target.matches(".img_article img")) {
+        console.log("Image article clicked");
+
+        let article = e.target.parentElement;
+        let img = article.querySelector("img").cloneNode(true);
+        let desciption = article.querySelector("p").cloneNode(true);
+
+        right_section.innerHTML = '';
+        right_section.append(img);
+        right_section.append(desciption);
+    }
+
+    //quand l'artciel est une video youtube:
+    if (e.target.matches(".vid_article img")) {
+        console.log("Video article clicked");
+
+        let article = e.target.parentElement;
+        let vid = article.querySelector("iframe").cloneNode(true);
+        let desciption = article.querySelector("p").cloneNode(true);
+
+        right_section.innerHTML = '';
+        right_section.append(vid);
+        right_section.append(desciption);
+    }
 }

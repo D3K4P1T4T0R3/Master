@@ -22,6 +22,14 @@ main{
     padding: 0.5rem;
 }
 
+#right-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    gap: 0.5rem;
+}
+
 #categories{
     display: flex;
     flex-direction: row;
@@ -70,6 +78,12 @@ article img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#right-section img, #right-section iframe{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
 }
 
 /* Cache tout ce qui n'est pas une image dans un article */
