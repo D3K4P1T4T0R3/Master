@@ -1,6 +1,42 @@
 {
     "categories": [
         {
+            "title": "Car - 1950's (Unity)",
+            "articles": [
+                {
+                    "type": "vid",
+                    "url": "assets/car_1950s/car1950s_mini.png",
+                    "vid_url": "https://www.youtube.com/embed/IebplvN6MGk?si=aw_vd1OVaWz3dMkT",
+                    "content": "'Car - 1950's' est un city builder à la SimCity. <br><br> Cliquez ici pour acceder à la vidéo de présentation du jeu."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/opening.png",
+                    "content": "Voici une capture d'écran de l'ouverture du jeu."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/concret_jungle.png",
+                    "content": "Voici à quoi ressemble la ville avec beaucoup de bâtiments construits."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/destroied.png",
+                    "content": "La voila apres avoir detruit une bonne partie des bâtiments."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/ending.png",
+                    "content": "La voici en piteurse état proche du Game Over."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/game_over.png",
+                    "content": "Et voila l'ecran de Game Over."
+                }
+            ]
+        },
+        {
             "title": "Jeu de rôle Amalgama",
             "articles": [
                 {
@@ -43,6 +79,21 @@
                     "type": "img",
                     "url": "assets/processing/dungeon_crawler.png",
                     "content": "Un dungeon crawler ou il faut continuer d'étage en étage sans laisser sa lampe s'éteindre."
+                }
+            ]
+        },
+        {
+            "title": "Projetcs Max/MSP",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/maxmsp/DDR.png",
+                    "content": "Une recreation du jeu Dance Dance Revolution ou il faut tirer sur des capteur de lumiere pour marquer des points."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/maxmsp/flappy_bird.png",
+                    "content": "Un jeu de type Flappy Bird réalisé avec Max/MSP."
                 }
             ]
         }

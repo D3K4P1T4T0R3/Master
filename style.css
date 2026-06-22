@@ -1,5 +1,17 @@
-body, main, #left-section, #right-section{
-    min-height: 92vh;
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+main{
+    flex-grow: 1;
+}
+header{
+    padding: 1rem;
 }
 
 .lang_button{
@@ -17,10 +29,19 @@ main{
 }
 
 #left-section, #right-section{
-    border: 2px solid lightgray;
+    outline: 2px solid lightgray;
+    outline-offset: -1px;
     width: 50%;
-    padding: 0.5rem;
+    padding: 1rem;
 }
+
+#left-section > h1{
+    margin-top: 4rem;
+}
+#left-section > p{
+    margin-bottom: 1.75rem;
+}
+
 
 #right-section{
     display: flex;
@@ -72,6 +93,7 @@ main{
 article{
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
 }
 
 article img{
@@ -84,6 +106,11 @@ article img{
     width: 100%;
     height: auto;
     object-fit: fill;
+}
+#right-section p{
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    margin: 0;
 }
 
 /* Cache tout ce qui n'est pas une image dans un article */

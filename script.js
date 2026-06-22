@@ -84,7 +84,7 @@ function creatAllCategoriesAndArticles(){
                     img.alt = article.content;
                     //creer la description de l'article
                     let description = document.createElement("p");
-                    description.append(article.content);
+                    description.setHTML(article.content);
 
                     //verifier le type d'article et créer l'élément correspondant
                     if(article.type == "img"){
