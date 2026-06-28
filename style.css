@@ -86,6 +86,7 @@ main{
     width: 100%;
     height: auto;
     object-fit: fill;
+    cursor: pointer;
 }
 #right-section iframe{
     aspect-ratio: 16 / 9;
@@ -197,6 +198,9 @@ article p, article iframe{
     height: 5rem;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 1.1rem;
 }
 
 #overlay-displayer{
