@@ -9,6 +9,7 @@ body{
     justify-content: flex-start;
     align-items: stretch;
 
+    /* Font Family Google */
     font-family: "Inter", sans-serif;
 }
 main{
