@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body{
     margin: 0;
     min-height: 100vh;
@@ -6,6 +8,8 @@ body{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
+
+    font-family: "Inter", sans-serif;
 }
 main{
     flex-grow: 1;
@@ -28,15 +32,36 @@ main{
     align-items: stretch;
 }
 
-#left-section, #right-section{
-    outline: 2px solid lightgray;
-    outline-offset: -1px;
-    width: 50%;
-    padding: 1rem;
+/*On Mobile, No Right Section*/
+@media (max-width: 768px) {
+    #left-section{
+        width: 100%;
+        padding: 1rem;
+    }
+    #right-section{
+        width: 0;
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    #left-section, #right-section{
+        width: 50%;
+    }
+    #left-section{
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    #right-section{
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
 }
 
 #left-section > h1{
+    font-weight: 600;
+    font-size: 3rem;
     margin-top: 4rem;
+    margin-bottom: 0;
 }
 #left-section > p{
     margin-bottom: 1.75rem;
@@ -51,7 +76,7 @@ main{
     align-items: stretch;
 
     /*Fait qu'il reste fix et verticalment centrer, peu importe le scroll*/
-    width: calc(50% - 2rem);
+    width: calc(50% - 3rem);
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
@@ -68,8 +93,11 @@ main{
 }
 #right-section p{
     padding: 0.5rem;
-    border: 2px solid lightgray;
+    /*border: 2px solid lightgray;*/
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 5px 10px rgb(175, 175, 175);
     margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
 }
 
 #categories{
@@ -94,8 +122,10 @@ main{
 }
 
 .category{
-    padding: 0.75rem;
-    border: 2px solid lightgray;
+    padding: 1rem;
+    /*border: 2px solid lightgray;*/
+    border-radius: 20px;
+    box-shadow: 0px 5px 12px rgb(202, 202, 202);
 }
 
 .category h2{
@@ -140,4 +170,52 @@ article img{
 /* Cache tout ce qui n'est pas une image dans un article */
 article p, article iframe{
     display: none;
+}
+
+#overlay{
+    display: none;
+}
+
+#overlay.open{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;;
+    background-color: rgba(125, 125, 125, 0.5);
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#previous-article, #next-article{
+    width: 35px;
+    height: 5rem;
+}
+
+#overlay-displayer{
+    margin: 0 0.5rem;
+    max-width: 100%;
+}
+
+#overlay-displayer p{
+    padding: 0.75rem;
+    background-color: white;
+}
+
+#overlay-displayer img{
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+}
+
+#overlay-displayer iframe{
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width:  100%;
+    max-height: 80vh;
 }

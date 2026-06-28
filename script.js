@@ -7,6 +7,11 @@ let categories = document.querySelectorAll(".category");
 
 let displayer = document.querySelector("#displayer");
 
+let overlay = document.querySelector("#overlay"); //get overlay
+let overlay_displayer = document.querySelector("#overlay-displayer");
+
+let last_article_clicked = document.querySelector("article");
+let lastest_article_clicked = document.querySelector("article");
 
 //load stuff
 loadLang("fr");
@@ -29,6 +34,7 @@ bouton_en.addEventListener("click", function (e) {
 document.addEventListener("click", (e) => {
     hideOrShowArticlesInCategories(e);
     displayArticlesInRightSection(e);
+    displayAndControlOverlay(e);
 });
 
 //functions
@@ -151,12 +157,21 @@ function displayArticlesInRightSection(e){
         console.log("Image article clicked");
 
         let article = e.target.parentElement;
+
+        last_article_clicked = article; //keep the last article clicked
+        lastest_article_clicked = article; //same
+
+        //Clone
         let img = article.querySelector("img").cloneNode(true);
         let desciption = article.querySelector("p").cloneNode(true);
-
+        //Clone vers Section droite
         displayer.innerHTML = '';
         displayer.append(img);
         displayer.append(desciption);
+
+        //si sur telephone, ouvre l'overlay directe
+        if(window.innerWidth > 768){return;}
+        openOverlay();
     }
 
     //quand l'artciel est une video youtube:
@@ -164,11 +179,127 @@ function displayArticlesInRightSection(e){
         console.log("Video article clicked");
 
         let article = e.target.parentElement;
+
+        last_article_clicked = article; //keep the last article clicked
+        lastest_article_clicked = article; //same
+
+        //Clone
         let vid = article.querySelector("iframe").cloneNode(true);
         let desciption = article.querySelector("p").cloneNode(true);
-
+        //Clone vers Section droite
         displayer.innerHTML = '';
         displayer.append(vid);
         displayer.append(desciption);
+
+        //si sur telephone, ouvre l'overlay directe
+        if(window.innerWidth > 768){return;}
+        openOverlay();
+    }
+}
+
+function displayAndControlOverlay(e){
+    //Cliquer sur l'image dans la section droite pour ouvrir l'overlay
+    if (e.target.matches("#displayer img")) {
+        openOverlay();
+    }
+
+    // Passer à l'article suivant
+    if (e.target.matches("#next-article")) {
+        console.log("Article Suivant");
+
+        //Quelque Check pour eviter de passer à un element suivant inexistant
+        if(!last_article_clicked){return;}
+        if(!last_article_clicked.nextElementSibling){return;}
+        //Article Suivant
+        last_article_clicked = last_article_clicked.nextElementSibling;
+
+        hideNextAndPreviousButtons(); //hide or not the buttons
+        
+        copieArticleToOverlay(); //copy article to overlay
+    }
+
+    // Passer à l'article precedent
+    if (e.target.matches("#previous-article")) {
+        console.log("Article Precedent");
+
+        //Quelque Check pour eviter de passer à un element precedent inexistant
+        if(!last_article_clicked){return;}
+        if(!last_article_clicked.previousElementSibling){return;}
+        //Article Precedent
+        last_article_clicked = last_article_clicked.previousElementSibling;
+
+        hideNextAndPreviousButtons(); //hide or not the buttons
+
+        copieArticleToOverlay(); //copy article to overlay
+    }
+
+    //Clicker sur l'overlay pour le fermer
+    if (e.target.matches("#overlay")) {
+        closeOverlay();
+    }
+}
+
+function copieArticleToOverlay(){
+    //Copier les elements necessaire
+    let p = last_article_clicked.querySelector("p").cloneNode(true);
+    let img;
+    if(last_article_clicked.classList.contains('img_article')){
+        img = last_article_clicked.querySelector("img").cloneNode(true);
+    }else if(last_article_clicked.classList.contains('vid_article')){
+        img = last_article_clicked.querySelector("iframe").cloneNode(true);
+    }
+    //Coller dans l'overlay
+    overlay_displayer.innerHTML = '';
+    overlay_displayer.append(img);
+    overlay_displayer.append(p);
+}
+
+//Ouvrir l'overlay
+function openOverlay(){
+    console.log("Ouvrir l'overlay");
+
+    //si "last_article_clicked" est vide, passer directe à l'ouverture, sans copie
+    if(last_article_clicked){
+        copieArticleToOverlay(); //copy article to overlay
+    }
+
+    //open the overlay
+    overlay.classList.toggle("open");
+    hideNextAndPreviousButtons(); //hide or not the buttons
+}
+
+//Ouvrir l'overlay
+function closeOverlay(){
+    console.log("Fermer l'overlay");
+    //reset the last article clicked
+    last_article_clicked = lastest_article_clicked;
+    //close the overlay
+    overlay.classList.toggle("open");
+}
+
+//Cacher ou pas les boutons de l'overlay
+function hideNextAndPreviousButtons(){
+    let next_button = document.querySelector("#next-article");
+    let previous_button = document.querySelector("#previous-article");
+
+    //tout cacher si ya pas de dernier article
+    if(!last_article_clicked){
+        next_button.style.visibility = "hidden";
+        previous_button.style.visibility = "hidden";
+        return;
+    }
+
+    //cacher bouton droit
+    if(!last_article_clicked.nextElementSibling){
+        next_button.style.visibility = "hidden";
+    }else{
+        next_button.style.visibility = "visible";
+    }
+
+    //cacher bouton gauche
+    if(!last_article_clicked.previousElementSibling){
+        previous_button.style.visibility = "hidden";
+    }else{
+        previous_button.style.visibility = "visible";
     }
 }
