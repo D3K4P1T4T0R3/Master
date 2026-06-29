@@ -7,7 +7,7 @@
                     "type": "vid",
                     "url": "assets/car_1950s/car1950s_mini.png",
                     "vid_url": "https://www.youtube.com/embed/IebplvN6MGk?si=aw_vd1OVaWz3dMkT",
-                    "content": "'Car - 1950's' est un city builder à la SimCity. <br><br> Cliquez ici pour acceder à la vidéo de présentation du jeu."
+                    "content": "'Car - 1950's' est un city builder à la SimCity. <br><br> Cliquez ici pour accéder à la vidéo de présentation du jeu."
                 },
                 {
                     "type": "img",
@@ -22,17 +22,17 @@
                 {
                     "type": "img",
                     "url": "assets/car_1950s/destroied.png",
-                    "content": "La voila apres avoir detruit une bonne partie des bâtiments."
+                    "content": "La voilà après avoir détruit une bonne partie des bâtiments."
                 },
                 {
                     "type": "img",
                     "url": "assets/car_1950s/ending.png",
-                    "content": "La voici en piteurse état proche du Game Over."
+                    "content": "La voici en piteux état, proche du Game Over."
                 },
                 {
                     "type": "img",
                     "url": "assets/car_1950s/game_over.png",
-                    "content": "Et voila l'ecran de Game Over."
+                    "content": "Et voilà l'écran de Game Over."
                 }
             ]
         },
@@ -42,7 +42,7 @@
                 {
                     "type": "img",
                     "url": "assets/amalgama_jdr/heros.png",
-                    "content": "Ici vous avez les personnages principaux du jeu de rôle Amalgama."
+                    "content": "Ici, vous avez les personnages principaux du jeu de rôle Amalgama."
                 },
                 {
                     "type": "img",
@@ -58,7 +58,7 @@
                     "type": "vid",
                     "url": "assets/mod_roa/scout_mini.jpeg",
                     "vid_url": "https://www.youtube.com/embed/d4frmrzLXgs?si=9nDoJ2KeDT7i_XM7",
-                    "content": "Cliquez ici pour acceder à la vidéo de présentation de mon mod pour Rivals of Aether."
+                    "content": "Cliquez ici pour accéder à la vidéo de présentation de mon mod pour Rivals of Aether."
                 },
                 {
                     "type": "img",
@@ -68,27 +68,27 @@
             ]
         },
         {
-            "title": "Projetcs Processing",
+            "title": "Projets Processing",
             "articles": [
                 {
                     "type": "img",
                     "url": "assets/processing/card_game.png",
-                    "content": "Un jeu de carte exagonal ou il faut detruitre les deux tours de l'adversaire avant qu'il ne detruise les votres."
+                    "content": "Un jeu de cartes hexagonal où il faut détruire les deux tours de l'adversaire avant qu'il ne détruise les vôtres."
                 },
                 {
                     "type": "img",
                     "url": "assets/processing/dungeon_crawler.png",
-                    "content": "Un dungeon crawler ou il faut continuer d'étage en étage sans laisser sa lampe s'éteindre."
+                    "content": "Un dungeon crawler où il faut continuer d'étage en étage sans laisser sa lampe s'éteindre."
                 }
             ]
         },
         {
-            "title": "Projetcs Max/MSP",
+            "title": "Projets Max/MSP",
             "articles": [
                 {
                     "type": "img",
                     "url": "assets/maxmsp/DDR.png",
-                    "content": "Une recreation du jeu Dance Dance Revolution ou il faut tirer sur des capteur de lumiere pour marquer des points."
+                    "content": "Une récréation du jeu Dance Dance Revolution où il faut tirer sur des capteurs de lumière pour marquer des points."
                 },
                 {
                     "type": "img",
