@@ -1,6 +1,152 @@
 {
     "categories": [
         {
+            "title": "Design Graphique",
+            "articles": [
+                {
+                    "type": "vid",
+                    "url": "assets/graphisme/messages_from_the_stars.png",
+                    "vid_url": "https://www.youtube.com/embed/ozJMUCeDMEo?si=2XWHMkESo8DdxxQ_",
+                    "content": "Kinetic Typography (messages from the stars)"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/owlie_logo_white.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/madatlas-1.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/madatlas-2.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/madatlas-3.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/originel_flyer.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/econet.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/flyer_redpeps-3.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/flyer_redpeps-1.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/flyer_redpeps-2.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/full_cover.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/cutezila.jpg",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/fond.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/bni-1.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/bni-2.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/bni-3.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/bni-4.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/demoman_carte_de_viste.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/gld_1.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/gld_2.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/gld_3.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/gld_4.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/decheterie_logo.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/poisson_logo_1.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/poisson_logo_2.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/volcan_logo_1.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/volcan_logo_2.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/graphisme/thegarden_flyer.png",
+                    "content": ""
+                }
+            ]
+        },
+        {
             "title": "Car - 1950's (Unity)",
             "articles": [
                 {
