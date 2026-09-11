@@ -112,9 +112,9 @@ function creatAllCategoriesAndArticles(){
                 });
 
                 // ajouter la category et ces articles à la section de gauche
-                if (index % 2 === 0) {
+                if (category.side === "left") {
                     document.querySelector("#categories-left").append(new_category);
-                } else {
+                } else if (category.side === "right") {
                     document.querySelector("#categories-right").append(new_category);
                 }
             });

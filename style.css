@@ -149,7 +149,7 @@ main{
     display: grid;
     grid-template-columns: repeat(auto-fill, 4rem);
     gap: 0.5rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     opacity: 0;
     max-height: 0;

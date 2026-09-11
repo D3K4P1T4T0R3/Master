@@ -2,6 +2,7 @@
     "categories": [
         {
             "title": "Design Graphique",
+            "side": "left",
             "articles": [
                 {
                     "type": "vid",
@@ -148,6 +149,7 @@
         },
         {
             "title": "Illustrations",
+            "side": "right",
             "articles": [
                 { "url": "assets/illustrations/chien.jpg", "type": "img", "content": "" },
                 { "url": "assets/illustrations/clown.jpg", "type": "img", "content": "" },
@@ -237,6 +239,7 @@
         },
         {
             "title": "Space Cars Shooter (Unreal)",
+            "side": "left",
             "articles": [
                 {
                     "type": "vid",
@@ -273,6 +276,7 @@
         },
         {
             "title": "Car - 1950's (Unity)",
+            "side": "left",
             "articles": [
                 {
                     "type": "vid",
@@ -359,6 +363,7 @@
         },
         {
             "title": "Shoot Ducks (Godot)",
+            "side": "left",
             "articles": [
                 {
                     "type": "vid",
@@ -415,6 +420,7 @@
         },
         {
             "title": "Mod pour Rivals of Aether",
+            "side": "right",
             "articles": [
                 {
                     "type": "vid",
@@ -455,52 +461,8 @@
             ]
         },
         {
-            "title": "Projets Processing",
-            "articles": [
-                {
-                    "type": "img",
-                    "url": "assets/processing/card_game.png",
-                    "content": "Un jeu de cartes hexagonal où il faut détruire les deux tours de l'adversaire avant qu'il ne détruise les vôtres. <br> Il s'agit d'une version numérique de mon jeu de plateau \"Beacon Defender\". Contient un système de mélange automatique des cartes, une vérification de la possibilité de placement selon le type des cartes, et même un algorithme de pathfinding rudimentaire qui prend en compte les 'points de déplacements' restant."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/processing/dungeon_crawler.png",
-                    "content": "Un \"dungeon crawler\" où vous vous déplacez d'étage en étage dans un donjon sans fin. Plus vous avancez, moins votre lampe a d'huile. Ramassez de l'huile sur les murs du donjon et améliorez votre personnage. Si vous laissez l'obscurité vous envahir, le monstre apparaîtra."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/processing/007.png",
-                    "content": "Jeu du \"007\", se joue à la \"tour par tour synchronisé\", comme le pierre-feuille-ciseau. Chargez votre pistolet 3 fois pour tuer votre adversaire en un seul coup, mais attention à ne pas vous faire tuer avant. Protégez-vous si vous pensez que votre adversaire est sur le point de vous tirer dessus."
-                }
-            ]
-        },
-        {
-            "title": "Projets Max/MSP",
-            "articles": [
-                {
-                    "type": "img",
-                    "url": "assets/maxmsp/tir_au_pigeon.png",
-                    "content": "Jeu du tir au pigeon. Il y a 3 écrans pour 3 capteurs lumineux. Vous avez un gant avec une lampe au bout du doigt et un capteur de flexion sur le pouce. Quand un écran s'allume, visez son capteur et pliez le pouce (façon pistolet) pour gagner un point."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/maxmsp/DDR.png",
-                    "content": "Une récréation du jeu Dance Dance Revolution, sauf que l'apparition des flèches se fait automatiquement selon la musique donnée au programme (fonctionne en filtrant le son pour récupérer ses valeurs les plus basses, nous permettant d'utiliser le BPM de la musique)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/maxmsp/course_voiture.png",
-                    "content": "Jeu de voiture. Le but du jeu est de rester sur la route, plus on reste longtemps dessus, plus le score monte, et plus la route se rapetissée et oscille violemment."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/maxmsp/flappy_bird.png",
-                    "content": "Un jeu de type Flappy Bird réalisé avec Max/MSP."
-                }
-            ]
-        },
-        {
             "title": "Tales of Amal'Gama (Jeu de Role)",
+            "side": "left",
             "articles": [
                 {
                     "type": "img",
@@ -550,37 +512,8 @@
             ]
         },
         {
-            "title": "Beacon Defender",
-            "articles": [
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_irl.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_all.png",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/deck_irl.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_manuel.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_almanach.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                }
-            ]
-        },
-        {
             "title": "Tales of Amal'Gama (Jeu Video)",
+            "side": "left",
             "articles": [
                 {
                     "type": "vid",
@@ -641,7 +574,86 @@
             ]
         },
         {
+            "title": "Projets Processing",
+            "side": "right",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/processing/card_game.png",
+                    "content": "Un jeu de cartes hexagonal où il faut détruire les deux tours de l'adversaire avant qu'il ne détruise les vôtres. <br> Il s'agit d'une version numérique de mon jeu de plateau \"Beacon Defender\". Contient un système de mélange automatique des cartes, une vérification de la possibilité de placement selon le type des cartes, et même un algorithme de pathfinding rudimentaire qui prend en compte les 'points de déplacements' restant."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/processing/dungeon_crawler.png",
+                    "content": "Un \"dungeon crawler\" où vous vous déplacez d'étage en étage dans un donjon sans fin. Plus vous avancez, moins votre lampe a d'huile. Ramassez de l'huile sur les murs du donjon et améliorez votre personnage. Si vous laissez l'obscurité vous envahir, le monstre apparaîtra."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/processing/007.png",
+                    "content": "Jeu du \"007\", se joue à la \"tour par tour synchronisé\", comme le pierre-feuille-ciseau. Chargez votre pistolet 3 fois pour tuer votre adversaire en un seul coup, mais attention à ne pas vous faire tuer avant. Protégez-vous si vous pensez que votre adversaire est sur le point de vous tirer dessus."
+                }
+            ]
+        },
+        {
+            "title": "Projets Max/MSP",
+            "side": "right",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/maxmsp/tir_au_pigeon.png",
+                    "content": "Jeu du tir au pigeon. Il y a 3 écrans pour 3 capteurs lumineux. Vous avez un gant avec une lampe au bout du doigt et un capteur de flexion sur le pouce. Quand un écran s'allume, visez son capteur et pliez le pouce (façon pistolet) pour gagner un point."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/maxmsp/DDR.png",
+                    "content": "Une récréation du jeu Dance Dance Revolution, sauf que l'apparition des flèches se fait automatiquement selon la musique donnée au programme (fonctionne en filtrant le son pour récupérer ses valeurs les plus basses, nous permettant d'utiliser le BPM de la musique)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/maxmsp/course_voiture.png",
+                    "content": "Jeu de voiture. Le but du jeu est de rester sur la route, plus on reste longtemps dessus, plus le score monte, et plus la route se rapetissée et oscille violemment."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/maxmsp/flappy_bird.png",
+                    "content": "Un jeu de type Flappy Bird réalisé avec Max/MSP."
+                }
+            ]
+        },
+        {
+            "title": "Beacon Defender",
+            "side": "right",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_irl.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_all.png",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/deck_irl.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_manuel.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_almanach.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                }
+            ]
+        },
+        {
             "title": "3D",
+            "side": "right",
             "articles": [
                 {
                     "type": "vid",
