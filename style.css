@@ -141,14 +141,22 @@ main{
 
 /*Eu besoin d'aide de ChatGPT pour faire l'animation*/
 .articles {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 200px;
+    
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
 
     opacity: 0;
     max-height: 0;
     margin-top: 0;
     overflow: hidden;
+
+    will-change: opacity, max-height, margin-top; 
 
     transition:
         opacity 0.3s ease,

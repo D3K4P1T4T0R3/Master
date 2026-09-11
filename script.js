@@ -88,6 +88,8 @@ function creatAllCategoriesAndArticles(){
                     let img = document.createElement("img");
                     img.src = article.url;
                     img.alt = article.content;
+                    img.loading = "lazy";
+                    img.decoding = "async";
                     //creer la description de l'article
                     let description = document.createElement("p");
                     description.setHTML(article.content);
@@ -96,19 +98,9 @@ function creatAllCategoriesAndArticles(){
                     if(article.type == "img"){
                         article_container.classList.add('img_article');
                     }
-                    if(article.type == "vid"){
-                        article_container.classList.add('vid_article');
-                        
-                        let iframe = document.createElement("iframe");
-                        iframe.width = "560";
-                        iframe.height = "315";
-                        iframe.src = article.vid_url;
-                        iframe.title = "YouTube video player";
-                        iframe.frameBorder = "0";
-                        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-                        iframe.referrerPolicy = "strict-origin-when-cross-origin";
-                        iframe.allowFullscreen = true;                                                
-                        article_container.append(iframe);
+                    if (article.type === "vid") {
+                        article_container.classList.add("vid_article");
+                        article_container.dataset.videoUrl = article.vid_url;
                     }
 
                     //ajouter l'image et la description à l'article
@@ -128,6 +120,22 @@ function creatAllCategoriesAndArticles(){
             });
         })
     });
+}
+
+function createVideoIframe(article) {
+    const iframe = document.createElement("iframe");
+
+    iframe.width = "560";
+    iframe.height = "315";
+    iframe.src = article.dataset.videoUrl;
+    iframe.title = "YouTube video player";
+    iframe.frameBorder = "0";
+    iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.referrerPolicy = "strict-origin-when-cross-origin";
+    iframe.allowFullscreen = true;
+
+    return iframe;
 }
 
 //cache et montre les articles d'une catégorie quand on clique sur le titre de la catégorie
@@ -176,24 +184,20 @@ function displayArticlesInRightSection(e){
 
     //quand l'artciel est une video youtube:
     if (e.target.matches(".vid_article img")) {
-        console.log("Video article clicked");
 
         let article = e.target.parentElement;
 
-        last_article_clicked = article; //keep the last article clicked
-        lastest_article_clicked = article; //same
+        last_article_clicked = article;
+        lastest_article_clicked = article;
 
-        //Clone
-        let vid = article.querySelector("iframe").cloneNode(true);
-        let desciption = article.querySelector("p").cloneNode(true);
-        //Clone vers Section droite
-        displayer.innerHTML = '';
-        displayer.append(vid);
-        displayer.append(desciption);
+        let vid = createVideoIframe(article);
+        let description = article.querySelector("p").cloneNode(true);
 
-        //si sur telephone, ouvre l'overlay directe
-        if(window.innerWidth > 768){return;}
-        openOverlay();
+        displayer.replaceChildren(vid, description);
+
+        if (window.innerWidth <= 768) {
+            openOverlay();
+        }
     }
 }
 
