@@ -211,9 +211,10 @@ article p, article iframe{
     margin: 0 0.5rem;
     max-width: 100%;
     max-height: 100%;
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
+    flex-basis: 80vw;
 }
 
 #previous-article, #next-article, #overlay-displayer p, #overlay-displayer img, #overlay-displayer iframe{
@@ -225,6 +226,9 @@ article p, article iframe{
     margin-top: 0.5rem;
     padding: 1.25rem;
     background-color: white;
+    overflow: scroll;
+    word-break: break-all;
+    overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
@@ -232,31 +236,24 @@ article p, article iframe{
         width: 100%;
         height: auto;
         max-height: 85vh;
+        max-width: 100%;
         object-fit: contain;
     }
-
-    #overlay-displayer iframe{
-        aspect-ratio: 16 / 9;
-        height: auto;
-        width:  auto;
-        max-height: 85vh;
-        max-width: 100%;
-    }
 }
-
 @media (min-width: 768px) {
     #overlay-displayer img{
         width: fit-content;
         height: auto;
         max-height: 85vh;
+        max-width: 100%;
         object-fit: contain;
     }
+}
 
-    #overlay-displayer iframe{
+#overlay-displayer iframe{
         aspect-ratio: 16 / 9;
         height: auto;
         width:  auto;
         max-height: 85vh;
         max-width: 100%;
     }
-}
