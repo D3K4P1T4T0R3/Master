@@ -227,7 +227,7 @@ article p, article iframe{
     padding: 1.25rem;
     background-color: white;
     overflow: auto;
-    word-break: break-all;
+    word-break: break-word;
     overflow-x: hidden;
 }
 
