@@ -149,15 +149,90 @@
         {
             "title": "Illustrations",
             "articles": [
-                { "url": "assets/graphisme/illustrations/chien.jpg", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/clown.jpg", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/color_face.jpg", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/owlie.jpg", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/paint_1.jpg", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/paint_2.jpg", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/staline.png", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/rap_site.png", "type": "img", "content": ""},
-                { "url": "assets/graphisme/illustrations/angel_knife_1.png", "type": "img", "content": ""}
+                { "url": "assets/illustrations/chien.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/clown.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/color_face.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/owlie.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/paint_1.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/paint_2.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/staline.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/rap_site.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/angel_knife_1.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/angel_knife_2.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/calm.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/child_of_fury.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/cilender.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/creepy_1.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/creepy_2.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/cutezila.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/dive.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/faces.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/fist_up.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/flcl_1.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/flcl_2.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/flcl_3.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/flcl_4.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/flcl_5.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/flower.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/fog_man.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_1.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_2.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_3.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_4.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_5.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_6.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_7.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_8.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_9.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_10.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_11.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_12.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_14.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_15.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_16.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_17.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_18.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_19.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_20.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_21.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_22.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_23.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_24.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_26.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_27.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_28.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_29.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_30.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_31.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_32.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_33.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_34.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_36.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_37.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_38.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_39.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_40.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_41.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_42.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_43.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_44.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_45.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_46.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/hand_drawn_47.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/helmet.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/laugthing_man.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/lizar_man.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/magazine_cover.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/mask.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/mess.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/mult.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/owl_face.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/punk_1.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/punk_2.png", "type": "img", "content": "" },
+                { "url": "assets/illustrations/skull.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/strange_bodys.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/sword.jpg", "type": "img", "content": "" },
+                { "url": "assets/illustrations/woman.jpg", "type": "img", "content": "" }
             ]
         },
         {
@@ -425,36 +500,6 @@
             ]
         },
         {
-            "title": "Beacon Defender",
-            "articles": [
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_irl.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_all.png",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/deck_irl.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_manuel.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/beacon_defender/cards_almanach.jpg",
-                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
-                }
-            ]
-        },
-        {
             "title": "Tales of Amal'Gama (Jeu de Role)",
             "articles": [
                 {
@@ -505,61 +550,32 @@
             ]
         },
         {
-            "title": "3D",
+            "title": "Beacon Defender",
             "articles": [
                 {
-                    "type": "vid",
-                    "vid_url": "https://www.youtube.com/embed/2LnrRax4-fU?si=d6KWfSOtPXsAYHDx",
-                    "url": "assets/3D/car_mini.png",
-                    "content": "Animation en boucle d'une voiture cartoon."
-                },
-                {
-                    "type": "vid",
-                    "vid_url": "https://www.youtube.com/embed/sKC0NHmKbT4?si=Xbm4oQ5J161uhjE0",
-                    "url": "assets/3D/chester_mini.png",
-                    "content": "Animation d'un personnage cubique sur Blockbanch."
-                },
-                {
-                    "type": "vid",
-                    "vid_url": "https://www.youtube.com/embed/4x7p1ICyl2c?si=Tce_xtQwjMVLLeGY",
-                    "url": "assets/3D/stylo_mini.png",
-                    "content": "Animation d'un stylo qui tombe sur une table."
-                },
-                {
-                    "type": "vid",
-                    "vid_url": "https://www.youtube.com/embed/8Su7Zj5B7KU?si=QEMb9xuQfutE9Cza",
-                    "url": "assets/3D/wawi_mini.png",
-                    "content": "Animation faite pour l'anniversaire de ma bien-aimée."
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_irl.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
                 },
                 {
                     "type": "img",
-                    "url": "assets/3D/wawi.png",
-                    "content": ""
+                    "url": "assets/beacon_defender/cards_all.png",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
                 },
                 {
                     "type": "img",
-                    "url": "assets/3D/boat.png",
-                    "content": ""
+                    "url": "assets/beacon_defender/deck_irl.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
                 },
                 {
                     "type": "img",
-                    "url": "assets/3D/chaise.png",
-                    "content": ""
+                    "url": "assets/beacon_defender/cards_manuel.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
                 },
                 {
                     "type": "img",
-                    "url": "assets/3D/house.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/3D/appartement.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/3D/window.png",
-                    "content": ""
+                    "url": "assets/beacon_defender/cards_almanach.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
                 }
             ]
         },
@@ -621,6 +637,65 @@
                     "type": "img",
                     "url": "assets/amalgama_jv/page_5.png",
                     "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                }
+            ]
+        },
+        {
+            "title": "3D",
+            "articles": [
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/2LnrRax4-fU?si=d6KWfSOtPXsAYHDx",
+                    "url": "assets/3D/car_mini.png",
+                    "content": "Animation en boucle d'une voiture cartoon."
+                },
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/sKC0NHmKbT4?si=Xbm4oQ5J161uhjE0",
+                    "url": "assets/3D/chester_mini.png",
+                    "content": "Animation d'un personnage cubique sur Blockbanch."
+                },
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/4x7p1ICyl2c?si=Tce_xtQwjMVLLeGY",
+                    "url": "assets/3D/stylo_mini.png",
+                    "content": "Animation d'un stylo qui tombe sur une table."
+                },
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/8Su7Zj5B7KU?si=QEMb9xuQfutE9Cza",
+                    "url": "assets/3D/wawi_mini.png",
+                    "content": "Animation faite pour l'anniversaire de ma bien-aimée."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/wawi.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/boat.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/chaise.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/house.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/appartement.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/window.png",
+                    "content": ""
                 }
             ]
         }
