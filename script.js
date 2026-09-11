@@ -238,7 +238,7 @@ function displayAndControlOverlay(e){
     }
 
     //Clicker sur l'overlay pour le fermer
-    if (e.target.matches("#overlay")) {
+    if (e.target.matches("#overlay") || e.target.matches("#overlay-displayer")) {
         closeOverlay();
     }
 }
