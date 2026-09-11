@@ -147,53 +147,180 @@
             ]
         },
         {
+            "title": "Space Cars Shooter (Unreal)",
+            "articles": [
+                {
+                    "type": "vid",
+                    "url": "assets/space_cars_shooter/spacecars_mini.png",
+                    "vid_url": "https://www.youtube.com/embed/aqCrCz_CoJs?si=84cfTPk7q0VCIq81",
+                    "content": "Jeu qui mêle tir spacial à la Star Fox, mécanique de course à la Forza, et contrôle rapide et précis à la Sonic."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/space_cars_shooter/begining.png",
+                    "content": "Jeu qui mêle tir spacial à la Star Fox, mécanique de course à la Forza, et contrôle rapide et précis à la Sonic."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/space_cars_shooter/spot_enemy.png",
+                    "content": "Jeu qui mêle tir spacial à la Star Fox, mécanique de course à la Forza, et contrôle rapide et précis à la Sonic."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/space_cars_shooter/shoot_enemy.png",
+                    "content": "Jeu qui mêle tir spacial à la Star Fox, mécanique de course à la Forza, et contrôle rapide et précis à la Sonic."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/space_cars_shooter/shot_explosion.png",
+                    "content": "Jeu qui mêle tir spacial à la Star Fox, mécanique de course à la Forza, et contrôle rapide et précis à la Sonic."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/space_cars_shooter/enemy_up_close.png",
+                    "content": "Jeu qui mêle tir spacial à la Star Fox, mécanique de course à la Forza, et contrôle rapide et précis à la Sonic."
+                }
+            ]
+        },
+        {
             "title": "Car - 1950's (Unity)",
             "articles": [
                 {
                     "type": "vid",
                     "url": "assets/car_1950s/car1950s_mini.png",
                     "vid_url": "https://www.youtube.com/embed/IebplvN6MGk?si=aw_vd1OVaWz3dMkT",
-                    "content": "'Car - 1950's' est un city builder à la SimCity. <br><br> Cliquez ici pour accéder à la vidéo de présentation du jeu."
+                    "content": "'Car - 1950's' est un city builder anti-capitaliste, mettant en scène l'avancée de l'anthropocène en parlant de l'avènement de la planification urbaine centrée autour de la voiture (commencée dans les années 50' aux États-Unis, et qui s'est ensuite exportée dans le monde entier). <br> Dans ce jeu de à la 'SimCity', vous prenez la place d'un employé d'une grande entreprise automobile, et vous avez comme but d'accommoder une petite ville à l'arrivée de la voiture. Mais attention à bien gérer les variables sociales, écologiques et économiques pour éviter le Game-Over."
                 },
                 {
                     "type": "img",
                     "url": "assets/car_1950s/opening.png",
-                    "content": "Voici une capture d'écran de l'ouverture du jeu."
+                    "content": "'Car - 1950's' est un city builder anti-capitaliste, mettant en scène l'avancée de l'anthropocène en parlant de l'avènement de la planification urbaine centrée autour de la voiture (commencée dans les années 50' aux États-Unis, et qui s'est ensuite exportée dans le monde entier). <br> Dans ce jeu de à la 'SimCity', vous prenez la place d'un employé d'une grande entreprise automobile, et vous avez comme but d'accommoder une petite ville à l'arrivée de la voiture. Mais attention à bien gérer les variables sociales, écologiques et économiques pour éviter le Game-Over."
                 },
                 {
                     "type": "img",
                     "url": "assets/car_1950s/concret_jungle.png",
-                    "content": "Voici à quoi ressemble la ville avec beaucoup de bâtiments construits."
+                    "content": "'Car - 1950's' est un city builder anti-capitaliste, mettant en scène l'avancée de l'anthropocène en parlant de l'avènement de la planification urbaine centrée autour de la voiture (commencée dans les années 50' aux États-Unis, et qui s'est ensuite exportée dans le monde entier). <br> Dans ce jeu de à la 'SimCity', vous prenez la place d'un employé d'une grande entreprise automobile, et vous avez comme but d'accommoder une petite ville à l'arrivée de la voiture. Mais attention à bien gérer les variables sociales, écologiques et économiques pour éviter le Game-Over."
                 },
                 {
                     "type": "img",
                     "url": "assets/car_1950s/destroied.png",
-                    "content": "La voilà après avoir détruit une bonne partie des bâtiments."
+                    "content": "'Car - 1950's' est un city builder anti-capitaliste, mettant en scène l'avancée de l'anthropocène en parlant de l'avènement de la planification urbaine centrée autour de la voiture (commencée dans les années 50' aux États-Unis, et qui s'est ensuite exportée dans le monde entier). <br> Dans ce jeu de à la 'SimCity', vous prenez la place d'un employé d'une grande entreprise automobile, et vous avez comme but d'accommoder une petite ville à l'arrivée de la voiture. Mais attention à bien gérer les variables sociales, écologiques et économiques pour éviter le Game-Over."
                 },
                 {
                     "type": "img",
                     "url": "assets/car_1950s/ending.png",
-                    "content": "La voici en piteux état, proche du Game Over."
+                    "content": "'Car - 1950's' est un city builder anti-capitaliste, mettant en scène l'avancée de l'anthropocène en parlant de l'avènement de la planification urbaine centrée autour de la voiture (commencée dans les années 50' aux États-Unis, et qui s'est ensuite exportée dans le monde entier). <br> Dans ce jeu de à la 'SimCity', vous prenez la place d'un employé d'une grande entreprise automobile, et vous avez comme but d'accommoder une petite ville à l'arrivée de la voiture. Mais attention à bien gérer les variables sociales, écologiques et économiques pour éviter le Game-Over."
                 },
                 {
                     "type": "img",
                     "url": "assets/car_1950s/game_over.png",
-                    "content": "Et voilà l'écran de Game Over."
+                    "content": "'Car - 1950's' est un city builder anti-capitaliste, mettant en scène l'avancée de l'anthropocène en parlant de l'avènement de la planification urbaine centrée autour de la voiture (commencée dans les années 50' aux États-Unis, et qui s'est ensuite exportée dans le monde entier). <br> Dans ce jeu de à la 'SimCity', vous prenez la place d'un employé d'une grande entreprise automobile, et vous avez comme but d'accommoder une petite ville à l'arrivée de la voiture. Mais attention à bien gérer les variables sociales, écologiques et économiques pour éviter le Game-Over."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_1.png",
+                    "content": "Document explicatif : page 1."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_2.png",
+                    "content": "Document explicatif : page 2."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_3.png",
+                    "content": "Document explicatif : page 3."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_4.png",
+                    "content": "Document explicatif : page 4."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_5.png",
+                    "content": "Document explicatif : page 5."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_6.png",
+                    "content": "Document explicatif : page 6."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_7.png",
+                    "content": "Document explicatif : page 7."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_8.png",
+                    "content": "Document explicatif : page 8."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_9.png",
+                    "content": "Document explicatif : page 9."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/car_1950s/page_10.png",
+                    "content": "Document explicatif : page 10."
                 }
             ]
         },
         {
-            "title": "Jeu de rôle Amalgama",
+            "title": "Shoot Ducks (Godot)",
             "articles": [
                 {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/heros.png",
-                    "content": "Ici, vous avez les personnages principaux du jeu de rôle Amalgama."
+                    "type": "vid",
+                    "url": "assets/shoot_ducks/shootducks_mini.png",
+                    "vid_url": "https://www.youtube.com/embed/MWTywmH6fpg?si=S3qX_agZ2kpxX19x",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
                 },
                 {
                     "type": "img",
-                    "url": "assets/amalgama_jdr/paysage.png",
-                    "content": "Vous pouvez voir ici les différents paysages du jeu de rôle Amalgama."
+                    "url": "assets/shoot_ducks/title_screen.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/shot_duck.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/noon.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/evening.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/late_evening.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/early_night.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/night.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/late_night.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shoot_ducks/midnight.png",
+                    "content": "Tirez sur des canards, gagnez de l'argent et achetez plus de balles. <br> La nuit tombante rend les canards difficiles à viser !"
                 }
             ]
         },
@@ -203,13 +330,38 @@
                 {
                     "type": "vid",
                     "url": "assets/mod_roa/scout_mini.jpeg",
-                    "vid_url": "https://www.youtube.com/embed/d4frmrzLXgs?si=9nDoJ2KeDT7i_XM7",
-                    "content": "Cliquez ici pour accéder à la vidéo de présentation de mon mod pour Rivals of Aether."
+                    "vid_url": "https://www.youtube.com/embed/DUalipDXq2c?si=0rTiJZFPgc4ma64c",
+                    "content": "Mod pour le jeu de 'platform fighter' 'Rivals Of Aether'. <br>Personnage du 'Scout' inspiré du jeu TF2. Son gameplay met en avant la vitesse d'action et l'enchaînement de combos rapides à bas dégâts. <br><br>Le but a été de faire un personnage le plus satisfaisant possible à jouer, d'où sa facilité d'utilisation, sa force au sol, aérienne et à distance, et l'utilisation marquée des 'sweet spot'; tout ça étant contrebalancé par ses faibles dégâts et son faible poids facilitant son expulsion."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/mod_roa/steam_worshop.png",
+                    "content": "Mod pour le jeu de 'platform fighter' 'Rivals Of Aether'. <br>Personnage du 'Scout' inspiré du jeu TF2. Son gameplay met en avant la vitesse d'action et l'enchaînement de combos rapides à bas dégâts. <br><br>Le but a été de faire un personnage le plus satisfaisant possible à jouer, d'où sa facilité d'utilisation, sa force au sol, aérienne et à distance, et l'utilisation marquée des 'sweet spot'; tout ça étant contrebalancé par ses faibles dégâts et son faible poids facilitant son expulsion."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/mod_roa/famousness.png",
+                    "content": "A eu une grande popularité."
                 },
                 {
                     "type": "img",
                     "url": "assets/mod_roa/capture_1.jpeg",
-                    "content": "Voici une capture d'écran de mon personnage en action."
+                    "content": "Mod pour le jeu de 'platform fighter' 'Rivals Of Aether'. <br>Personnage du 'Scout' inspiré du jeu TF2. Son gameplay met en avant la vitesse d'action et l'enchaînement de combos rapides à bas dégâts. <br><br>Le but a été de faire un personnage le plus satisfaisant possible à jouer, d'où sa facilité d'utilisation, sa force au sol, aérienne et à distance, et l'utilisation marquée des 'sweet spot'; tout ça étant contrebalancé par ses faibles dégâts et son faible poids facilitant son expulsion."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/mod_roa/capture_2.jpeg",
+                    "content": "Mod pour le jeu de 'platform fighter' 'Rivals Of Aether'. <br>Personnage du 'Scout' inspiré du jeu TF2. Son gameplay met en avant la vitesse d'action et l'enchaînement de combos rapides à bas dégâts. <br><br>Le but a été de faire un personnage le plus satisfaisant possible à jouer, d'où sa facilité d'utilisation, sa force au sol, aérienne et à distance, et l'utilisation marquée des 'sweet spot'; tout ça étant contrebalancé par ses faibles dégâts et son faible poids facilitant son expulsion."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/mod_roa/capture_3.jpeg",
+                    "content": "Mod pour le jeu de 'platform fighter' 'Rivals Of Aether'. <br>Personnage du 'Scout' inspiré du jeu TF2. Son gameplay met en avant la vitesse d'action et l'enchaînement de combos rapides à bas dégâts. <br><br>Le but a été de faire un personnage le plus satisfaisant possible à jouer, d'où sa facilité d'utilisation, sa force au sol, aérienne et à distance, et l'utilisation marquée des 'sweet spot'; tout ça étant contrebalancé par ses faibles dégâts et son faible poids facilitant son expulsion."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/mod_roa/capture_4.jpeg",
+                    "content": "Mod pour le jeu de 'platform fighter' 'Rivals Of Aether'. <br>Personnage du 'Scout' inspiré du jeu TF2. Son gameplay met en avant la vitesse d'action et l'enchaînement de combos rapides à bas dégâts. <br><br>Le but a été de faire un personnage le plus satisfaisant possible à jouer, d'où sa facilité d'utilisation, sa force au sol, aérienne et à distance, et l'utilisation marquée des 'sweet spot'; tout ça étant contrebalancé par ses faibles dégâts et son faible poids facilitant son expulsion."
                 }
             ]
         },
@@ -219,12 +371,17 @@
                 {
                     "type": "img",
                     "url": "assets/processing/card_game.png",
-                    "content": "Un jeu de cartes hexagonal où il faut détruire les deux tours de l'adversaire avant qu'il ne détruise les vôtres."
+                    "content": "Un jeu de cartes hexagonal où il faut détruire les deux tours de l'adversaire avant qu'il ne détruise les vôtres. <br> Il s'agit d'une version numérique de mon jeu de plateau \"Beacon Defender\". Contient un système de mélange automatique des cartes, une vérification de la possibilité de placement selon le type des cartes, et même un algorithme de pathfinding rudimentaire qui prend en compte les 'points de déplacements' restant."
                 },
                 {
                     "type": "img",
                     "url": "assets/processing/dungeon_crawler.png",
-                    "content": "Un dungeon crawler où il faut continuer d'étage en étage sans laisser sa lampe s'éteindre."
+                    "content": "Un \"dungeon crawler\" où vous vous déplacez d'étage en étage dans un donjon sans fin. Plus vous avancez, moins votre lampe a d'huile. Ramassez de l'huile sur les murs du donjon et améliorez votre personnage. Si vous laissez l'obscurité vous envahir, le monstre apparaîtra."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/processing/007.png",
+                    "content": "Jeu du \"007\", se joue à la \"tour par tour synchronisé\", comme le pierre-feuille-ciseau. Chargez votre pistolet 3 fois pour tuer votre adversaire en un seul coup, mais attention à ne pas vous faire tuer avant. Protégez-vous si vous pensez que votre adversaire est sur le point de vous tirer dessus."
                 }
             ]
         },
@@ -233,13 +390,164 @@
             "articles": [
                 {
                     "type": "img",
+                    "url": "assets/maxmsp/tir_au_pigeon.png",
+                    "content": "Jeu du tir au pigeon. Il y a 3 écrans pour 3 capteurs lumineux. Vous avez un gant avec une lampe au bout du doigt et un capteur de flexion sur le pouce. Quand un écran s'allume, visez son capteur et pliez le pouce (façon pistolet) pour gagner un point."
+                },
+                {
+                    "type": "img",
                     "url": "assets/maxmsp/DDR.png",
-                    "content": "Une récréation du jeu Dance Dance Revolution où il faut tirer sur des capteurs de lumière pour marquer des points."
+                    "content": "Une récréation du jeu Dance Dance Revolution, sauf que l'apparition des flèches se fait automatiquement selon la musique donnée au programme (fonctionne en filtrant le son pour récupérer ses valeurs les plus basses, nous permettant d'utiliser le BPM de la musique)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/maxmsp/course_voiture.png",
+                    "content": "Jeu de voiture. Le but du jeu est de rester sur la route, plus on reste longtemps dessus, plus le score monte, et plus la route se rapetissée et oscille violemment."
                 },
                 {
                     "type": "img",
                     "url": "assets/maxmsp/flappy_bird.png",
                     "content": "Un jeu de type Flappy Bird réalisé avec Max/MSP."
+                }
+            ]
+        },
+        {
+            "title": "Beacon Defender",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_irl.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_all.png",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/deck_irl.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_manuel.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/beacon_defender/cards_almanach.jpg",
+                    "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                }
+            ]
+        },
+        {
+            "title": "Tales of Amal'Gama<br>(Jeu de Role)",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/heros.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/boss.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/balises.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/paysage.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/carte.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_1.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_2.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_3.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_4.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                }
+            ]
+        },
+        {
+            "title": "Tales of Amal'Gama<br>(Jeu Video)",
+            "articles": [
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/ID8oKU5QWSw?si=ftTxy3kfFMUT8OB6",
+                    "url": "assets/amalgama_jv/amalgama_jv_mini.png",
+                    "content": "Présentation des différentes animations en Pixel Art. <br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/fidel.png",
+                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/epinier.png",
+                    "content": "Personnage : Epinier.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/colonel.png",
+                    "content": "Personnage : Colonel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/pointeur.png",
+                    "content": "Personnage : Pointeur.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/angeliste.png",
+                    "content": "Personnage : Angeliste.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_1.png",
+                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_2.png",
+                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_3.png",
+                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_4.png",
+                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_5.png",
+                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
                 }
             ]
         }
