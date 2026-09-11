@@ -226,7 +226,7 @@ article p, article iframe{
     margin: 0.5rem 0;
     padding: 1.25rem;
     background-color: white;
-    overflow: scroll;
+    overflow: auto;
     word-break: break-all;
     overflow-x: hidden;
 }
