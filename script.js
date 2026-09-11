@@ -250,7 +250,7 @@ function copieArticleToOverlay(){
     if(last_article_clicked.classList.contains('img_article')){
         img = last_article_clicked.querySelector("img").cloneNode(true);
     }else if(last_article_clicked.classList.contains('vid_article')){
-        img = last_article_clicked.querySelector("iframe").cloneNode(true);
+        img = createVideoIframe(last_article_clicked);
     }
     //Coller dans l'overlay
     overlay_displayer.innerHTML = '';
