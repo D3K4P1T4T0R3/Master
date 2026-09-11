@@ -147,6 +147,20 @@
             ]
         },
         {
+            "title": "Illustrations",
+            "articles": [
+                { "url": "assets/graphisme/illustrations/chien.jpg", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/clown.jpg", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/color_face.jpg", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/owlie.jpg", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/paint_1.jpg", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/paint_2.jpg", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/staline.png", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/rap_site.png", "type": "img", "content": ""},
+                { "url": "assets/graphisme/illustrations/angel_knife_1.png", "type": "img", "content": ""}
+            ]
+        },
+        {
             "title": "Space Cars Shooter (Unreal)",
             "articles": [
                 {
@@ -487,6 +501,65 @@
                     "type": "img",
                     "url": "assets/amalgama_jdr/page_4.png",
                     "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                }
+            ]
+        },
+        {
+            "title": "3D",
+            "articles": [
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/2LnrRax4-fU?si=d6KWfSOtPXsAYHDx",
+                    "url": "assets/3D/car_mini.png",
+                    "content": "Animation en boucle d'une voiture cartoon."
+                },
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/sKC0NHmKbT4?si=Xbm4oQ5J161uhjE0",
+                    "url": "assets/3D/chester_mini.png",
+                    "content": "Animation d'un personnage cubique sur Blockbanch."
+                },
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/4x7p1ICyl2c?si=Tce_xtQwjMVLLeGY",
+                    "url": "assets/3D/stylo_mini.png",
+                    "content": "Animation d'un stylo qui tombe sur une table."
+                },
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/8Su7Zj5B7KU?si=QEMb9xuQfutE9Cza",
+                    "url": "assets/3D/wawi_mini.png",
+                    "content": "Animation faite pour l'anniversaire de ma bien-aimée."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/wawi.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/boat.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/chaise.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/house.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/appartement.png",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "url": "assets/3D/window.png",
+                    "content": ""
                 }
             ]
         },
