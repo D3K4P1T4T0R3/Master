@@ -212,6 +212,8 @@ article p, article iframe{
     max-width: 100%;
     max-height: 100%;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #previous-article, #next-article, #overlay-displayer p, #overlay-displayer img, #overlay-displayer iframe{
@@ -225,17 +227,36 @@ article p, article iframe{
     background-color: white;
 }
 
-#overlay-displayer img{
-    width: 100%;
-    height: auto;
-    max-height: 85vh;
-    object-fit: contain;
+@media (max-width: 768px) {
+    #overlay-displayer img{
+        width: 100%;
+        height: auto;
+        max-height: 85vh;
+        object-fit: contain;
+    }
+
+    #overlay-displayer iframe{
+        aspect-ratio: 16 / 9;
+        height: auto;
+        width:  auto;
+        max-height: 85vh;
+        max-width: 100%;
+    }
 }
 
-#overlay-displayer iframe{
-    aspect-ratio: 16 / 9;
-    height: auto;
-    width:  auto;
-    max-height: 85vh;
-    max-width: 100%;
+@media (min-width: 768px) {
+    #overlay-displayer img{
+        width: fit-content;
+        height: auto;
+        max-height: 85vh;
+        object-fit: contain;
+    }
+
+    #overlay-displayer iframe{
+        aspect-ratio: 16 / 9;
+        height: auto;
+        width:  auto;
+        max-height: 85vh;
+        max-width: 100%;
+    }
 }
