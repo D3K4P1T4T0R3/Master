@@ -6,6 +6,38 @@
             "articles": [
                 {
                     "type": "vid",
+                    "url": "assets/interface-z/impression_3D_interface-z_mini.jpg",
+                    "vid_url": "https://www.youtube.com/embed/tVhq7b_9BRI?si=YOiVBW-P4hQ4MPka",
+                    "content": "Vidéo explicative de l'offre d'impression 3D d'Interface-Z. <br><br> Communication visuelle pour le compte Instagram et Facebook d'Interface-Z."
+                },
+                {
+                    "type": "vid",
+                    "url": "assets/interface-z/doc_interface-z_mini.jpg",
+                    "vid_url": "https://www.youtube.com/embed/5kBKINwpvMw?si=WHB2pKpvl9yxEZLp",
+                    "content": "Vidéo explicative d'accès à la documentation du site web d'Interface-Z. <br><br> Communication visuelle pour le compte Instagram et Facebook d'Interface-Z."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/interface-z/site_web_interface-z.png",
+                    "content": "Refonte du site de vente en ligne Prestashop d'Interface-Z."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/interface-z/cafe_interface-z.jpg",
+                    "content": "Communication visuelle pour le compte Instagram et Facebook d'Interface-Z."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/interface-z/les_oublieurs_interface-z.jpg",
+                    "content": "Communication visuelle pour le compte Instagram et Facebook d'Interface-Z."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/interface-z/bonne-annee_interface-z.jpg",
+                    "content": ""
+                },
+                {
+                    "type": "vid",
                     "url": "assets/graphisme/messages_from_the_stars.png",
                     "vid_url": "https://www.youtube.com/embed/ozJMUCeDMEo?si=2XWHMkESo8DdxxQ_",
                     "content": "Kinetic Typography (messages from the stars)"
@@ -113,36 +145,6 @@
                 {
                     "type": "img",
                     "url": "assets/graphisme/gld_4.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/graphisme/decheterie_logo.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/graphisme/poisson_logo_1.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/graphisme/poisson_logo_2.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/graphisme/volcan_logo_1.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/graphisme/volcan_logo_2.png",
-                    "content": ""
-                },
-                {
-                    "type": "img",
-                    "url": "assets/graphisme/thegarden_flyer.png",
                     "content": ""
                 }
             ]
@@ -362,6 +364,54 @@
             ]
         },
         {
+            "title": "Jeu de Rythme (Godot)",
+            "side": "left",
+            "articles": [
+                {
+                    "type": "vid",
+                    "url": "assets/jeu_de_rythme/jeu_de_rythme_deftones_risk_mini.png",
+                    "vid_url": "https://www.youtube.com/embed/7_WpDlqQ0bw?si=8geKKKfc0ld5aJ_G",
+                    "content": "Musique : Deftones - Risk <br><br> Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                },
+                {
+                    "type": "vid",
+                    "url": "assets/jeu_de_rythme/jeu_de_rythme_kino_cigarettes_mini.png",
+                    "vid_url": "https://www.youtube.com/embed/iWWfIk0j788?si=41qccKn6cWz07MwC",
+                    "content": "Musique : Kino - A Pack of Cigarettes <br><br> Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/jeu_de_rythme/rythme_menu.png",
+                    "content": "Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/jeu_de_rythme/rythme_1.png",
+                    "content": "Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/jeu_de_rythme/rythme_2.png",
+                    "content": "Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/jeu_de_rythme/rythme_3.png",
+                    "content": "Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/jeu_de_rythme/rythme_4.png",
+                    "content": "Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/jeu_de_rythme/rythme_5.png",
+                    "content": "Jeu de rythme inspiré de Guitar Hero et codé sur Godot. <br> Il génère ces cascades de notes de musique en traduisant des fichiers .chart empruntés au projet open source Clone Hero."
+                }
+            ]
+        },
+        {
             "title": "Shoot Ducks (Godot)",
             "side": "left",
             "articles": [
@@ -419,6 +469,53 @@
             ]
         },
         {
+            "title": "Shove Tower (Lua)",
+            "side": "left",
+            "articles": [
+                {
+                    "type": "vid",
+                    "url": "assets/shove_tower/shove_tower_mini.png",
+                    "vid_url": "https://www.youtube.com/embed/nWw5ARvffs8?si=Mx06Vwy7tN1P8C3J",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shove_tower/st_1.png",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shove_tower/st_2.png",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shove_tower/st_3.png",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shove_tower/st_4.png",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shove_tower/st_5.png",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shove_tower/st_6.png",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/shove_tower/st_7.png",
+                    "content": "Shove Tower. <br> Utilisez vos capacités à vous élancer et à esquiver pour faire tomber votre adversaire de la tour."
+                }
+            ]
+        },
+        {
             "title": "Mod pour Rivals of Aether",
             "side": "right",
             "articles": [
@@ -457,119 +554,6 @@
                     "type": "img",
                     "url": "assets/mod_roa/capture_4.jpeg",
                     "content": "Mod pour le jeu de 'platform fighter' 'Rivals Of Aether'. <br>Personnage du 'Scout' inspiré du jeu TF2. Son gameplay met en avant la vitesse d'action et l'enchaînement de combos rapides à bas dégâts. <br><br>Le but a été de faire un personnage le plus satisfaisant possible à jouer, d'où sa facilité d'utilisation, sa force au sol, aérienne et à distance, et l'utilisation marquée des 'sweet spot'; tout ça étant contrebalancé par ses faibles dégâts et son faible poids facilitant son expulsion."
-                }
-            ]
-        },
-        {
-            "title": "Tales of Amal'Gama (Jeu de Role)",
-            "side": "left",
-            "articles": [
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/heros.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/boss.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/balises.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/paysage.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/carte.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/page_1.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/page_2.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/page_3.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jdr/page_4.png",
-                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
-                }
-            ]
-        },
-        {
-            "title": "Tales of Amal'Gama (Jeu Video)",
-            "side": "left",
-            "articles": [
-                {
-                    "type": "vid",
-                    "vid_url": "https://www.youtube.com/embed/ID8oKU5QWSw?si=ftTxy3kfFMUT8OB6",
-                    "url": "assets/amalgama_jv/amalgama_jv_mini.png",
-                    "content": "Présentation des différentes animations en Pixel Art. <br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/fidel.png",
-                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/epinier.png",
-                    "content": "Personnage : Epinier.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/colonel.png",
-                    "content": "Personnage : Colonel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/pointeur.png",
-                    "content": "Personnage : Pointeur.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/angeliste.png",
-                    "content": "Personnage : Angeliste.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/page_1.png",
-                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/page_2.png",
-                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/page_3.png",
-                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/page_4.png",
-                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
-                },
-                {
-                    "type": "img",
-                    "url": "assets/amalgama_jv/page_5.png",
-                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
                 }
             ]
         },
@@ -648,6 +632,119 @@
                     "type": "img",
                     "url": "assets/beacon_defender/cards_almanach.jpg",
                     "content": "Jeu de plateau dont le but est de terrasser les 2 balises ennemies tout en protégeant les siennes. <br> Les caractéristiques des cartes étant réinitialisées à la fin de chaque tour, le jeu met en avant la vivacité d'esprit et l'utilisation stratégique des ressources disponibles (cartes, argents, points de déplacements, ...etc)."
+                }
+            ]
+        },
+        {
+            "title": "Tales of Amal'Gama (Jeu de Role)",
+            "side": "left",
+            "articles": [
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/heros.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/boss.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/balises.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/paysage.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/carte.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_1.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_2.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_3.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jdr/page_4.png",
+                    "content": "Jeu de rôle visuellement inspiré par le jeu \"Hylics\". <br> Le but de la campagne est de battre les 4 gardiens pour briser le dôme protecteur de la Tour de Babel, et aller mettre à pied le règne des Angelistes."
+                }
+            ]
+        },
+        {
+            "title": "Tales of Amal'Gama (Jeu Video)",
+            "side": "right",
+            "articles": [
+                {
+                    "type": "vid",
+                    "vid_url": "https://www.youtube.com/embed/ID8oKU5QWSw?si=ftTxy3kfFMUT8OB6",
+                    "url": "assets/amalgama_jv/amalgama_jv_mini.png",
+                    "content": "Présentation des différentes animations en Pixel Art. <br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/fidel.png",
+                    "content": "Personnage : Fidel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/epinier.png",
+                    "content": "Personnage : Epinier.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/colonel.png",
+                    "content": "Personnage : Colonel.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/pointeur.png",
+                    "content": "Personnage : Pointeur.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/angeliste.png",
+                    "content": "Personnage : Angeliste.<br><br> Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_1.png",
+                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_2.png",
+                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_3.png",
+                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_4.png",
+                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
+                },
+                {
+                    "type": "img",
+                    "url": "assets/amalgama_jv/page_5.png",
+                    "content": "Jeu vidéo non abouti, basé sur mon jeu de rôle du même nom. Le gameplay conceptuel est grandement inspiré du jeu \"Into the Breach\", avec des combats stratégiques en tour par tour, se déroulant sur une grille en vue isométrique."
                 }
             ]
         },

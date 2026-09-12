@@ -245,7 +245,8 @@ article p, article iframe{
 
 @media (max-width: 768px) {
     #overlay-displayer img{
-        width: 100%;
+        width: content;
+        margin: auto;
         height: auto;
         max-height: 85vh;
         max-width: 100%;
@@ -255,11 +256,11 @@ article p, article iframe{
 @media (min-width: 768px) {
     #overlay-displayer img{
         width: fit-content;
+        margin: auto;
         height: auto;
         max-height: 80vh;
         max-width: 100%;
         object-fit: contain;
-        margin: auto;
     }
 }
 
